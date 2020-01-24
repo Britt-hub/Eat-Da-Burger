@@ -1,7 +1,7 @@
 <div class="container">
     <section id="page-name">
             <iframe id="main-image" src="https://giphy.com/embed/UAXou95E6oPjW" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            <h1>Eat-Da-Buger</h1>
+            <h1>Eat-Da-Burger</h1>
     </section>
 
     <section class="row">
@@ -9,7 +9,7 @@
             <table>
                 {{#each burgers}}
                     {{#unless devoured}}
-                        {{> burgers/burger-block}}
+                        {{> burgers/eat-da-burger}}
                     {{/unless}}
                 {{/each}}
             </table>
@@ -23,7 +23,7 @@
         </div>          
     </section>
 
-    <form class="create-form">
+    <form method = "POST" class="create-form">
         <div class="form-group">
             <label for="name"></label>
             <textarea id="name" name="burger-name" rows="2" cols="40" placeholder="What do you want to eat?"></textarea>

@@ -15,12 +15,13 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 -My app will store every burger in a database, whether devoured or not.
 
-![Note Taker](burgery.png)
+![Burger](burgery.png)
 
 ## Built With
 
 Node.js JavaScript runtime
 MySql - Data Base
+
 
 
 ## License
